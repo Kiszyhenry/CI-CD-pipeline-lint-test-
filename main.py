@@ -1,5 +1,6 @@
 import re
 
+
 def check_password_strength(password):
     # Initialize strength points
     strength = 0
@@ -41,6 +42,7 @@ def check_password_strength(password):
         print("⚠️ Moderate password. Consider improving it.")
     else:
         print("❌ Weak password. Please try again.")
+
 
 # Run the program
 password = input("Enter your password to check strength: ")
