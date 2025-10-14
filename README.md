@@ -34,7 +34,7 @@ Pipeline Steps: The workflow consists of a single job called build-and-test that
 3.	Run Tests: If linting passes, it executes the unit tests (e.g., npm run test) to ensure all functionality works as expected.
 Here is a simplified look at the workflow file:
 YAML
-# .github/workflows/ci.yml
+# .github/workflows/superlinter.yml
 name: CI Pipeline
 
 on:
